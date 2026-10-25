@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #0f1b33;
+  --color-ink-soft: #3b4a66;
+  --color-brand: #1d4ed8;
+  --color-brand-soft: #e8efff;
+  --color-gold: #a87a12;
+  --color-gold-soft: #fbf3dc;
+  --color-pos: #15803d;
+  --color-pos-soft: #e7f6ec;
+  --color-neg: #b91c1c;
+  --color-neg-soft: #fdecec;
+  --color-warn: #b45309;
+  --color-warn-soft: #fff4e5;
+  --color-canvas: #f6f8fb;
+  --color-line: #e3e8f0;
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+html, body { background: var(--color-canvas); color: var(--color-ink); }
+body { font-feature-settings: "tnum" 1; -webkit-font-smoothing: antialiased; }
+.num { font-variant-numeric: tabular-nums; }
+table.fin th, table.fin td { white-space: nowrap; }
+.scroll-thin::-webkit-scrollbar { height: 8px; width: 8px; }
+.scroll-thin::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+
+@media print {
+  .no-print { display: none !important; }
+  body { background: #fff; }
+  .print-break { break-before: page; }
+  .print-avoid { break-inside: avoid; }
+  aside, header.app-header { display: none !important; }
+  main { padding: 0 !important; margin: 0 !important; }
+}

@@ -1,0 +1,79 @@
+{
+  "note": "SYNTHETIC test documents for a fictional company. Not real financial information.",
+  "files": [
+    {
+      "file": "SYNTHETIC_AnnualReport_FY2020-21.pdf",
+      "kind": "annual",
+      "declaredFy": 2021,
+      "scanned": false
+    },
+    {
+      "file": "SYNTHETIC_AnnualReport_FY2021-22.pdf",
+      "kind": "annual",
+      "declaredFy": 2022,
+      "scanned": false
+    },
+    {
+      "file": "SYNTHETIC_AnnualReport_FY2022-23.pdf",
+      "kind": "annual",
+      "declaredFy": 2023,
+      "scanned": false
+    },
+    {
+      "file": "SYNTHETIC_AnnualReport_FY2023-24.pdf",
+      "kind": "annual",
+      "declaredFy": 2024,
+      "scanned": false
+    },
+    {
+      "file": "SYNTHETIC_QuarterlyResults_FY2020-21_and_FY2021-22_(8_quarters).pdf",
+      "kind": "quarterly",
+      "scanned": false
+    },
+    {
+      "file": "SYNTHETIC_Q1_FY2022-23_Results.pdf",
+      "kind": "quarterly",
+      "scanned": false
+    },
+    {
+      "file": "SYNTHETIC_Q2_FY2022-23_Results.pdf",
+      "kind": "quarterly",
+      "scanned": false
+    },
+    {
+      "file": "SYNTHETIC_Q3_FY2022-23_Results.pdf",
+      "kind": "quarterly",
+      "scanned": false
+    },
+    {
+      "file": "SYNTHETIC_Q4_FY2022-23_Results.pdf",
+      "kind": "quarterly",
+      "scanned": false
+    },
+    {
+      "file": "SYNTHETIC_Q1_FY2023-24_Results.pdf",
+      "kind": "quarterly",
+      "scanned": false
+    },
+    {
+      "file": "SYNTHETIC_Q2_FY2023-24_Results.pdf",
+      "kind": "quarterly",
+      "scanned": false
+    },
+    {
+      "file": "SYNTHETIC_Q3_FY2023-24_Results.pdf",
+      "kind": "quarterly",
+      "scanned": false
+    },
+    {
+      "file": "SYNTHETIC_Q4_FY2023-24_Results.pdf",
+      "kind": "quarterly",
+      "scanned": false
+    },
+    {
+      "file": "SYNTHETIC_scanned_no_text_layer.pdf",
+      "kind": "quarterly",
+      "scanned": true
+    }
+  ]
+}
